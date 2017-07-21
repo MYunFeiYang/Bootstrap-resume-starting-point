@@ -1,0 +1,51 @@
+.middle{
+    width: 90%;
+    margin: 10px auto;
+    background-color: #0f0f0f;
+    border-radius: 5px;
+    position: absolute;
+    top:10px;
+    left: 5%;
+    z-index: 9999;
+}
+.middle  li a{
+    font-size: 20px;
+    color: #b9def0;
+}
+.middle li a:hover{
+    color: white;
+}
+.middle li ul li a{
+    font-size: 16px;
+    padding: 5px;
+    width: 200px;
+    color: black;
+}
+.middle li ul li a:hover{
+    background-color: #2b669a;
+}
+.item{
+    height: 500px;
+}
+.item img{
+    width: 98%;
+    height: 500px;
+    margin: 0px auto;
+    border-radius:5px ;
+}
+
+.thumbnail .img{
+    width: 140px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    background-color: gray;
+    margin: auto;
+    border-radius: 70px;
+}
+.thumbnail h3,p{
+    text-align: center;
+}
+.row{
+    margin-top: 50px;
+}
