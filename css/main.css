@@ -26,6 +26,7 @@
 }
 .item{
     height: 500px;
+    position: relative;
 }
 .item img{
     width: 98%;
@@ -42,10 +43,23 @@
     background-color: gray;
     margin: auto;
     border-radius: 70px;
+    overflow: hidden;
 }
 .thumbnail h3,p{
     text-align: center;
 }
 .row{
     margin-top: 50px;
+}
+.item .content{
+    width: 70%;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    z-index: 100;
+    color: white;
+}
+.item .content p{
+    font-size:24px;
+    text-align: left;
 }
